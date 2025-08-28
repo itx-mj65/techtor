@@ -4,11 +4,8 @@
   "description": "Modern software house website for Techtornix",
   "main": "api/health.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'Backend ready for deployment'",
-    "install-all": "npm install",
-    "vercel-dev": "vercel dev",
-    "deploy": "node deploy.js",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
     "deploy-manual": "vercel --prod"
   },
   "keywords": [
